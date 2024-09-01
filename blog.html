@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Unity College</title>
+  </head>
+  <body>
+    <section class="sub-header course-page">
+      <nav>
+        <!-- add a link for an image-->
+        <a href="index.html"><img src="images/ulogo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs</h1>
+    </section>
+
+    <!------ Blog Page Content ------>
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" />
+          <h2>Our Certificate & Online Programs</h2>
+          <p>
+            Our Certificate & Online Programs are designed to provide flexible
+            learning opportunities for students and professionals seeking to
+            enhance their skills and knowledge. These programs offer a wide
+            range of courses across various disciplines, allowing learners to
+            study at their own pace and from anywhere in the world.
+          </p>
+          <br />
+          <p>
+            Whether you're looking to advance in your current career, explore
+            new interests, or gain qualifications for a new profession, our
+            online programs provide the expertise and support you need to
+            succeed. Each course is led by experienced instructors who are
+            experts in their fields, ensuring a high-quality education that
+            meets industry standards.
+          </p>
+          <br />
+          <p>
+            Our Certificate & Online Programs leverage cutting-edge technology
+            to create an interactive and engaging learning experience. With
+            access to a variety of digital resources, including video lectures,
+            interactive assignments, and online discussions, students can deepen
+            their understanding of course material and collaborate with peers
+            from around the globe. Our programs are designed to fit into your
+            busy schedule, allowing you to balance your studies with work,
+            family, and other commitments. Whether you're studying full-time or
+            part-time, you can tailor your learning experience to suit your
+            needs.
+          </p>
+          <br />
+          <p>
+            Additionally, our online programs are recognized for their high
+            academic standards and are respected by employers worldwide. Upon
+            completion, you will receive a certificate that signifies your
+            expertise and commitment to professional development. Our alumni
+            have successfully applied their knowledge and skills in various
+            industries, making meaningful contributions in fields such as
+            business, technology, healthcare, and education. By enrolling in our
+            Certificate & Online Programs, you are taking a significant step
+            towards achieving your personal and professional goals.
+          </p>
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Type your comment..."></textarea>
+              <button type="submit" class="hero-btn green-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------ Footer ------>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        At Unity College, we are committed to providing a transformative
+        educational experience.<br />We foster a culture of innovation, critical
+        thinking, and collaboration, preparing our students to excel in a global
+        society.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> by Skylar Hu</p>
+    </section>
+
+    <!---- Javascript for Toggle Menu ---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-300px";
+      }
+    </script>
+  </body>
+</html>
