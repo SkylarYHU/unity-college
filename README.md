@@ -23,6 +23,12 @@ The Unity College website is a static, responsive site designed to showcase the 
 - **Google Fonts**: For custom font styles.
 - **Font Awesome**: For social media and other icons.
 
+## Demo
+
+You can view the live demo of this project by clicking the link below:
+
+[Click here to view the demo](https://skylaryhu.github.io/unity-college/)
+
 ## Screenshots
 
 ![Unity College homepage](screenshots/screenshot_1.png)
